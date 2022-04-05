@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex02</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script type="text/javascript" src="./js/ex02.js"></script>
+</head>
+<body class="bg-dark text-white">
+    <div class="container">
+        <form name="cadastrar" method="get" onsubmit="">
+            
+            <div class="form-group">
+                <input type="text" name="nome" placeholder="Digite seu nome: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Digite seu e-mail: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="date" name="data_nascimento" placeholder="Selecione sua data de nascimento: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="telefone" placeholder="Digite seu telefone: " class="form-control"/>
+            </div>
+
+            <p>Endereço</p>
+            <div class="form-group">
+                <input type="text" name="end_rua" placeholder="Rua: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="end_numero" placeholder="Número: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="end_cep" placeholder="CEP: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="end_bairro" placeholder="Bairro: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="end_cidade" placeholder="Cidade: " class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="end_estado" placeholder="Estado: " class="form-control"/>
+            </div>
+
+            <p>Qual a sua pretenção salarial?</p>
+            <div class="form-group">
+                <input type="text" name="salario" placeholder="5000" class="form-control" />
+            </div>
+
+            <p>Selecione seu meio de transporte</p>
+            <div class="form-group">
+                <input type="radio" name="transporte" value="1" />Ônibus <br/>
+                <input type="radio" name="transporte" value="1" />Trêm <br/>
+                <input type="radio" name="transporte" value="1" />Ônibus e Trêm <br/>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn success" />
+            </div>
+
+        </form>
+    </div>    
+</body>
+</html>
