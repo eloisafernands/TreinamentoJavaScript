@@ -73,7 +73,12 @@ var data = [
         ],
         "trabalho": [
             {
-                "salario": 1800,
+                "salario": 2500,
+                "cargo": "Estagiaria",
+                "meses de empresa": 12
+            },
+            {
+                "salario": 3000,
                 "cargo": "Estagiaria",
                 "meses de empresa": 12
             }
@@ -83,13 +88,17 @@ var data = [
 
 console.log(data);
 
+// salario
 var filtroSalario = data.filter(function (index){
-    if(index.trabalho.salario >= 2000){
-        return index;   
+    for(i=0; i<index.trabalho.length; i++){
+        if(index.trabalho[i].salario >= 2000){
+            return index;   
+        }
     }
 });
 console.log(filtroSalario);
 
+// idade
 var filtroIdade = data.filter(function (index){
     if(index.idade >= 18 && index.idade <= 30){
         return index;
@@ -97,6 +106,7 @@ var filtroIdade = data.filter(function (index){
 });
 console.log(filtroIdade);
 
+// conta ativa
 var filtroConta = data.filter(function (index){
     if(index.ContaAtiva == true){
         return index;

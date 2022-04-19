@@ -12,16 +12,19 @@
     <div class="container my-5">
         <h1 class="text-center mb-4">Adicione itens ao seu carrinho de compras!</h1>
         <form name="carrinho" method="post" onsubmit="return modificarCarrinho()">
-            <input type="hidden" name="id" value="1" />
+            <h4 class="text-center">Insira o ID do produto: <input type="text" name="id" value="" /></h4>
 
             <div class="form-group">
-                <input type="text" name="nomeProduto" placeholder="Nome do produto" value="LipTint" class="form-control my-2" />
+                <input type="text" name="nomeProduto" placeholder="Nome" value="" class="form-control my-2" />
             </div>
             <div class="form-group">
-                <input type="number" name="preco" placeholder="Preço do produto" value="19.99" class="form-control my-2" />
+                <input type="number" name="preco" placeholder="Preço" value="" class="form-control my-2" />
             </div>
             <div class="form-group">
-                <input type="text" name="quantidade" placeholder="quantidade do produto" value="3" class="form-control my-2" />
+                <input type="text" name="quantidade" placeholder="Quantidade" value="" class="form-control my-2" />
+            </div>
+            <div class="form-group">
+                <input type="text" name="observacao" placeholder="Obsercação" value="" class="form-control my-2" />
             </div>
             <div class="form-group text-center mt-3">
                 <input type="submit" value="Adicionar" class="btn btn-light text-uppercase fw-bold px-5" />

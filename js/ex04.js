@@ -26,16 +26,13 @@ function modificarCarrinho(){
             index.nomeProduto = carrinhoModificado.nomeProduto;
             index.preco = parseFloat(carrinhoModificado.preco);
             index.quantidade = parseInt(carrinhoModificado.quantidade);
-
+           
+            if(c.observacao.value.length > 0){
+                index.observacao = c.observacao.value;
+            }
         }
     });
 
     console.log(carrinho);
     return false;
 }
-
-/*
-    no produto de ID = 2, modificar a quantidade de produtos para 5
-    no produto de ID = 4, adicionar observação (qualquer informação a mais)
-    no produto de ID = 1, modificar o nome do produto.
-*/
