@@ -1,18 +1,17 @@
-
-
-.menu{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li a{
-    color: #fff;
-    display: block;
+ul li a {
     text-decoration: none;
-    margin: 0 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.container-header {
+    padding: 15px 0;
 }
 
 header{
-    background: #333;
+    background-color: #000;
 }
