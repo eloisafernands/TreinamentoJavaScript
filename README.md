@@ -13,3 +13,4 @@ Loja:
 
 Mini Projetos:
 - Calculadora IMC (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Calculadora%20IMC/)
+- Lâmpada (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Lampada/)
