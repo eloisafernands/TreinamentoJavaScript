@@ -12,4 +12,4 @@ Loja:
 - Primeiros passos da criação de uma loja virtual.
 
 Mini Projetos:
-- Calculadora IMC
+- Calculadora IMC (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Calculadora%20IMC/)
