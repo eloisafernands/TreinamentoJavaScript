@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
+
+:root{
+    /* colors */
+    --dark: #27242c;
+    --black: #000;
+    --green: #cece;
+    --secondary: #cecece;
+    --light: #f1f1f1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body{
+    background-color: var(--dark);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyCalc{
+    background-color: var(--green);
+    width: 20rem;
+    height: 27rem;
+    border-radius: 10px;
+    border: 3px solid var(--black);
+}
+
+.bodyCalc .header{
+    width: 100%;
+    height: 15%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid var(--black);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.bodyCalc .calc{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formCalc{
+    display: flex;
+    flex-direction: column;
+}
+.calc input{
+    margin: .5rem;
+    padding: .8rem .8rem;
+    border: 0;
+    border-radius: .4rem;
+}
+
+.calc input::placeholder{
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+#btnCalcular{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.bodyCalc .footer{
+    width: 100%;
+    height: 25%;
+    padding: .5rem;
+}
+
+.footer .resultCalc{
+    background-color: var(--dark);
+    width: 100%;
+    height: 100%;
+    border-radius: .4rem;
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
