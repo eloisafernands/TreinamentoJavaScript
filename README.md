@@ -10,3 +10,6 @@ App:
 
 Loja: 
 - Primeiros passos da criação de uma loja virtual.
+
+Mini Projetos:
+- Calculadora IMC
