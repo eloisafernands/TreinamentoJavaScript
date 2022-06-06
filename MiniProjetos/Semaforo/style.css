@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
+
+:root{
+    /* colors */
+    --dark: #27242c;
+    --black: #000;
+    --green: #cece;
+    --secondary: #cecece;
+    --light: #f1f1f1;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+}
+.imgSemaforo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+.btnComandos button {
+    padding: 7px 31px;
+    background: var(--green);
+    border: 3px solid var(--green);
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnComandos button:hover {
+    background: 0;
+    border: 3px solid var(--green);
+}
