@@ -12,5 +12,6 @@ Loja:
 - Primeiros passos da criação de uma loja virtual.
 
 Mini Projetos:
-- Calculadora IMC (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Calculadora%20IMC/)
-- Lâmpada (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Lampada/)
+- Calculadora IMC - Captura e manipulação de campos HTML (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Calculadora%20IMC/)
+- Lâmpada - Treinando eventos (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Lampada/)
+- Semáforo - Treinando eventos (https://eloisafernands.github.io/TreinamentoJavaScript/MiniProjetos/Semaforo/)
